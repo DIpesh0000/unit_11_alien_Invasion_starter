@@ -11,3 +11,4 @@ class settings:
         self.ship_file = Path.cwd() / 'unit_11_alien_Invasion_starter' / 'Assets' / 'images' / 'newship_2_nobg.png'
         self.ship_w = 40
         self.ship_h = 60
+        self.ship_speed = 5
