@@ -1,3 +1,8 @@
+"""Program: Alien Fleet
+Author: Dipesh Dahal
+Purpose: Define and manage different alien formations for the Alien Invasion game.
+Date: 2025-08-04"""
+
 
 import sys
 import pygame
@@ -50,9 +55,6 @@ class AlienInvasion:
         #check collusions for ship
         if self.ship.check_collisions(self.alien_fleet.fleet):
              self._check_game_status()
-             # the alien fleet to reset
-             # the ship to recent
-             #subtract one life if possible
 
         #check collisions for aliens and bottom fo screen
         if self.alien_fleet.check_fleet_bottom():
