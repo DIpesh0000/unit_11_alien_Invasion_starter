@@ -11,7 +11,7 @@ class settings:
         self.ship_file = Path.cwd() / 'Assets' / 'images' / 'newship_2_nobg.png'
         self.ship_w = 40
         self.ship_h = 60
-        self.ship_speed = 5
+        self.ship_speed = 6
 
         self.bullet_file = Path.cwd() / 'Assets' / 'images' / 'beam.png'
         self.laser_sound = Path.cwd() / 'Assets' / 'sound' / 'laser.mp3'
@@ -19,7 +19,7 @@ class settings:
         self.bullet_speed = 7 
         self.bullet_w = 25
         self.bullet_h = 80
-        self.bullet_amount = 5
+        self.bullet_amount = 10
 
         self.alien_file = Path.cwd() / 'Assets' / 'images' / 'enemy_4.png'
         self.alien_w = 40
