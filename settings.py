@@ -9,6 +9,7 @@ class settings:
         self.FPS = 60
         self.bg_file = Path.cwd() / 'Assets' / 'images' / 'summer5.png'
         self.difficulty_scale = 1.1
+        self.scores_file = Path.cwd() / 'Assets' / 'file' / 'scores.json'
         self.ship_file = Path.cwd() / 'Assets' / 'images' / 'newship_2_nobg.png'
         self.ship_w = 40
         self.ship_h = 60
